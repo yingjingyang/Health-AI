@@ -4,7 +4,7 @@ CodeAutrix 是一个 AI Agent 安全审计平台，提供三类扫描能力：
 
 - **Skill Security Audit** — 对 OpenClaw Skill/Agent ZIP 包进行多维安全检查，覆盖权限、隐私、混淆、高危工具、副作用、数据访问、调用深度、日志卫生、配置与 Manifest 等维度，**强制执行 AI 代码审查**，输出量化健康评分（5 维 0–100 分）+ 专业 PDF 报告
 - **Contract Audit** — 对 EVM 智能合约（本地文件或链上地址）进行漏洞分析，基于 AI 大模型进行多维度安全评分
-- **Stress Test** — 对任意命令（含 Skill）进行并发压力测试，输出成功率、P95 耗时等指标
+- **Stress Test** — 对任意命令（含 Skill）进行并发压力测试，输出成功率、P95 耗时等指标，以便对 Skill 进行评估
 
 ---
 
